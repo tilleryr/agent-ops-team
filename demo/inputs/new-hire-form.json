@@ -1,0 +1,16 @@
+{
+  "onboarding_id": "ONB-2026-0142",
+  "candidate_name": "Marcus Ellison",
+  "role": "Monitoring & Evaluation Specialist",
+  "department": "Programs",
+  "start_date": "2026-06-15",
+  "hiring_manager": "Priya Anand",
+  "location": "Washington, DC — HQ",
+  "equipment_preferences": {
+    "laptop": "MacBook Pro 14\"",
+    "os": "macOS",
+    "external_monitor": "27-inch",
+    "accessories": ["docking station", "wired headset"]
+  },
+  "offer_status": "accepted"
+}
