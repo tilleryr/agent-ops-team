@@ -92,7 +92,7 @@ Each agent definition enforces these; they are the conditions under which an aut
 
 The guardrails above are drawn from a real organizational **AI Governance Policy**: employment-related AI is treated as high-risk (Recruitment does not screen or rank candidates); regulated personal data such as I-9 and background-check material is minimized and walled off from other tracks; AI use is disclosed; and a named human owns the outcome. The agents read like role charters written by a senior ops leader because the governance model they implement is a real one.
 
-## IBI mapping notes
+## Mapping notes
 
 The agents map to functions on a real operations team, with two deliberate departures:
 
