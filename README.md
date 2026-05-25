@@ -58,6 +58,14 @@ Both modes use the same definitions in `.claude/agents/`.
 
 Trigger input: [`demo/inputs/new-hire-form.json`](demo/inputs/new-hire-form.json).
 
+## A note on the data
+
+This is a demonstration of the *architecture*, run on **simulated data**. The only real input is the new-hire form ([`demo/inputs/new-hire-form.json`](demo/inputs/new-hire-form.json)). Everything the agents produce beyond it — desk numbers, account lists, asset tags, email addresses, exact dates — is **generated as realistic placeholders**, not retrieved from any HR, IT, or Facilities system. Nothing here connects to a live system of record, and no real account, ticket, or document is created.
+
+What stays consistent across runs are the *rules*, because they come from the agent definitions rather than the data: least-privilege access, "draft, don't send," the I-9 second-section deadline, and the data-minimization that keeps compensation and I-9 details out of the IT and Facilities tracks. The specific values vary from run to run. (The committed [`demo/transcript.md`](demo/transcript.md) is one recorded sample, not a fixed output.)
+
+To operate on real data — pull an actual new hire, file a real provisioning ticket — each agent would be wired to the relevant system through tools or APIs. That is a separate, larger build; this repo demonstrates the coordination pattern and governance model, not a live integration.
+
 ## Repo structure
 
 ```
